@@ -1,0 +1,15 @@
+.nav ul{
+    height: 8em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+
+.nav ul a{
+    text-decoration: none;
+    margin-left: 1em;
+    color: #4e4e4e;
+    font-weight: 500;
+}
