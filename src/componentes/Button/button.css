@@ -1,7 +1,13 @@
 .baseButton{
-    padding: 0.9em 2em;
+    padding: 0.8em 2em;
     border-radius: 8px;
     border: none;
     background-color: #C92071;
     color: #fff;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.baseButton:hover{
+    background-color: #66123b;
 }
