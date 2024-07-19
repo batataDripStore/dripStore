@@ -38,7 +38,6 @@ export function Footer(){
                     </div>
 
                     <div className='links-uteis'>
-                        
                         <h3>Contato</h3>
                         <div className="location">
                         <span>Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</span>
