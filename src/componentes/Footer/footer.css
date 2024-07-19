@@ -58,7 +58,13 @@
     color: #a0a0a0;
 }
 
+.links-uteis h3{
+    font-size: 22px;
+    font-family: 'Inter';
+}
+
 .location{
     line-height: 2em;
     margin-top: 1em;
 }
+
