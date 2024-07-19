@@ -6,7 +6,9 @@
     color: #fff;
     cursor: pointer;
     transition-duration: 0.2s;
+    text-decoration: none;
 }
+
 
 .baseButton:hover{
     background-color: #66123b;
