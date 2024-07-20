@@ -7,9 +7,8 @@ import './header.css'
 const Header = () => {
   return (
     <header className="header ">
-      <div className="container d-flex justify-content-center flex-wrap">
+      <div className=" ">
         <InsideHeader />
-      
         <Nav />
       </div>
     </header>

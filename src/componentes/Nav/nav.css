@@ -7,11 +7,24 @@
     flex-direction: row;
     align-items: center;
     list-style: none;
+    gap: 1em;
+}
+
+.nav ul li{
+    padding-bottom: 1em;
+   
 }
 
 .nav ul a{
+    text-align: center;
     text-decoration: none;
-    margin-left: 1em;
-    color: #4e4e4e;
+    /* margin-left: 1em; */
+    color: #474747;
     font-weight: 500;
+    padding: 1em;
+}
+
+.nav ul li:hover{
+    border-bottom:2px solid #C92071;
+    color: #C92071;
 }
