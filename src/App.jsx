@@ -3,6 +3,8 @@ import Home from './Pages/Home/Home'
 import Produtos from './Pages/Produtos/Produtos'
 import Categoria from './Pages/Categorias/Categoria'
 import Pedidos from './Pages/Pedidos/Pedidos'
+
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 function App() {
   return (
