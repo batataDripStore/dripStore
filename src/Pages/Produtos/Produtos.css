@@ -1,0 +1,7 @@
+.AllGrid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.AllMargin{
+    margin: 100px;
+}
