@@ -8,6 +8,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import Filter from "../../componentes/Filter/Filter";
+import { FilterGroup } from "../../componentes/FilterGroup/FilterGroup";
 
 
 
@@ -19,7 +20,7 @@ export default function Produtos(){
             <h1>Produtos</h1>
             
                 <Filter></Filter>
-
+                <FilterGroup></FilterGroup>
             <ProductCard></ProductCard>
             
         <Footer />
