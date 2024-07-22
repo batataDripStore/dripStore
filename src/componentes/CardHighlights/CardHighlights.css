@@ -1,4 +1,39 @@
-
 .card-element{
-    background-image: url('../../assets/img/collection.png');
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    /* background-color: #ddd;  */
+    width: 390px;
+    height: 259px;
+    padding: 2em;
+    position: relative;
 }
+.card-element img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    border-radius: 8px;
+}
+.discount-flag{
+    background-color: #E7FF86;
+    color: #474747;
+    font-weight: 700;
+    padding: 0.5em;
+    width: 100px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+
+
+.card-element h2{
+ 
+    width: 175px;
+    line-height: 1.2em;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+

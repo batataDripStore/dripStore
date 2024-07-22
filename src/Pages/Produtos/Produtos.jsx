@@ -19,8 +19,8 @@ export default function Produtos(){
         <Header />
             <h1>Produtos</h1>
             
-                <Filter></Filter>
-                <FilterGroup></FilterGroup>
+            <Filter></Filter>
+            <FilterGroup></FilterGroup>
             <ProductCard></ProductCard>
             
         <Footer />
