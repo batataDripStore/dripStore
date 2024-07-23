@@ -15,30 +15,38 @@ export function FilterGroup (){
         <section className='filter_group'>
                 
                     <div className='category'>
-            <FormGroup>
-                <p>Marca</p>
-                  <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="Label" />
-                  <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="Label" />
-                  <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="Label" />
-                  <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="Label" />
-                  <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="Label" />
+                        <h4 className='title'>Filtrar por</h4>
+            <FormGroup sx={{marginLeft: '20px', marginBottom: '20px', backgroundColor: 'white'}}>
+                <p className='category2'>Marca</p>
+                  <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="Adidas" />
+                  <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="Calenciaga" />
+                  <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="K-Swiss" />
+                  <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="Nike" />
+                  <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="Puma" />
                 </FormGroup>
                     </div>
-                    <FormGroup>
+            <FormGroup sx={{marginLeft: '20px'}}>
                 <p className='category2'>Categoria</p>
-                  <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="Label" />
-                  <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="Label" />
-                  <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="Label" />
-                  <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="Label" />
+                  <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="Esporte e lazer" />
+                  <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="Casual" />
+                  <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="Utilitário" />
+                  <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="Corrida" />
                 </FormGroup>
-                <FormControl>
-                    <FormLabel id="demo-radio-buttons-group-label"><p className='category2'>Gender</p></FormLabel>
-                    <RadioGroup aria-labelledby="demo-radio-buttons-group-label"defaultValue="female"name="radio-buttons-group">
-            <FormControlLabel value="female" control={<Radio sx={{ color: '#C92071', '&.Mui-checked': { color: '#C92071' } }}/>} label="Femino" />
-            <FormControlLabel value="male" control={<Radio sx={{ color: '#C92071', '&.Mui-checked': { color: '#C92071' } }}/>} label="Masculino" />
-            <FormControlLabel value="other" control={<Radio />} label="Unissex" />
-                    </RadioGroup>
-                    </FormControl>
+            <FormControl sx={{marginLeft: '20px'}}>
+                <FormLabel id="demo-radio-buttons-group-label"><p className='category2'>Gênero</p></FormLabel>
+                <RadioGroup aria-labelledby="demo-radio-buttons-group-label"defaultValue="female"name="radio-buttons-group">
+                    <FormControlLabel value="female" control={<Radio sx={{ color: '#666666', '&.Mui-checked': { color: '#C92071' } }}/>} label="Femino" />
+                    <FormControlLabel value="male" control={<Radio sx={{ color: '#666666', '&.Mui-checked': { color: '#C92071' } }}/>} label="Masculino" />
+                    <FormControlLabel value="other" control={<Radio sx={{ color: '#666666', '&.Mui-checked': { color: '#C92071' } }}/>} label="Unissex" />
+                </RadioGroup>
+                </FormControl>
+                <FormControl sx={{marginLeft: '20px'}}>
+                <FormLabel id="demo-radio-buttons-group-label"><p className='category2'>Estado</p></FormLabel>
+                <RadioGroup aria-labelledby="demo-radio-buttons-group-label"defaultValue="female"name="radio-buttons-group">
+                    <FormControlLabel value="female" control={<Radio sx={{ color: '#666666', '&.Mui-checked': { color: '#C92071' } }}/>} label="Novo" />
+                    <FormControlLabel value="male" control={<Radio sx={{ color: '#666666', '&.Mui-checked': { color: '#C92071' } }}/>} label="Usado" />
+                </RadioGroup>
+                </FormControl>
         </section>
         </>
     )

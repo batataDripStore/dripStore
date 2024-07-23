@@ -15,10 +15,10 @@ export default function Fil() {
 
   return (
     <>
-    <section className='filtrar'  style={{ display: 'flex', justifyContent: 'flex-end' }}>
+    <section className='filtrar'  style={{ display: 'flex', justifyContent: 'flex-end', margin:'2%'}}>
         <Box sx={{ width: 308, height: 60 }}>
           <FormControl fullWidth>
-            <InputLabel id="demo-simple-select-label">Ordenar por: mais relevantes</InputLabel>
+            <InputLabel id="demo-simple-select-label">Ordenar por:</InputLabel>
             <Select
               labelId="demo-simple-select-label"
               id="demo-simple-select"
