@@ -9,21 +9,25 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import Filter from "../../componentes/Filter/Filter";
 import { FilterGroup } from "../../componentes/FilterGroup/FilterGroup";
+import { ProductGrid } from "../../ProductGrid/ProductGrid";
+import './Produtos.css'
 
 
 
 export default function Produtos(){
 
-    return(
+    return( 
         <>
         <Header />
-            <h1>Produtos</h1>
-            
-            <Filter></Filter>
-            <FilterGroup></FilterGroup>
-            <ProductCard></ProductCard>
-            
-        <Footer />
-        </>
+            <div className="AllMargin">
+                <h1>Produtos</h1>
+                        <Filter></Filter>
+                    <div className="AllGrid">
+                        <FilterGroup></FilterGroup>
+                        <ProductGrid></ProductGrid>
+                    </div>
+            </div>
+        <Footer /> 
+        </> 
     )
 }
