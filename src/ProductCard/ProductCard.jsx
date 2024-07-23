@@ -17,6 +17,7 @@ export function ProductCard({showDiscount}) {
                 <img src={tenis} alt="" className='tenisImg' />
               </div>
           </div>
+        <Link to={"/produtos"}>
         <section className='bottom'>
           <div className='tit1'>
             <p className='tit1'>Tênis</p>
@@ -24,15 +25,18 @@ export function ProductCard({showDiscount}) {
           <div className='tit2'>
               K-Swiss V8 - Masculino
           </div>
-          <div className='precos'>
-              <div className='descPreco'>
-                <p><span>$200</span></p>
-              </div>
-          <div className='preco'>
-            <p>$100</p>
-          </div>
-          </div>
+          <Link to={"/produtos"}>
+            <div className='precos'>
+                <div className='descPreco'>
+                  <p><span>$200</span></p>
+                </div>
+            <div className='preco'>
+              <p>$100</p>
+            </div>
+            </div>
+          </Link>
         </section>
+        </Link>
         </div>
      
     </>
