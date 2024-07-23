@@ -4,15 +4,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 .card{
     width: 292px;
     height: 439px;
     /* background-color: white; */
-    
-    position: relative;
-    
+    margin-top: 15%;
+    /* position: relative; */   
 }
+
 .cardTenis{
     width: 292px;
     height: 321px;
@@ -79,6 +80,7 @@
     height: 38px;
     display: flex;
     flex-direction: row;
+    margin-bottom: 5%;
 }
 .descPreco{
     width: 69px;
@@ -101,6 +103,7 @@
 .preco{
     width: 63px;
     height: 38px;
+
 }
 .preco p{
     width: 100%;
