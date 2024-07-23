@@ -16,7 +16,7 @@ import './Produtos.css'
 
 export default function Produtos(){
 
-    return(
+    return( 
         <>
         <Header />
             <div className="AllMargin">
@@ -27,7 +27,7 @@ export default function Produtos(){
                         <ProductGrid></ProductGrid>
                     </div>
             </div>
-        <Footer />
-        </>
+        <Footer /> 
+        </> 
     )
 }

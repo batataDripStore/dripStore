@@ -8,9 +8,12 @@ import ImageCarousel3 from '../../assets/img/home-slide-3.jpeg'
 import ImageCarousel4 from '../../assets/img/home-slide-4.jpeg'
 import ImageCarousel5 from '../../assets/img/home-slide-5.jpeg'
 import ImageCarousel6 from '../../assets/img/home-slide-6.jpeg'
+import { Category } from "../../componentes/Sections/Category/Category"
+
+
 export default function Home(){
 
-    
+   
     const banners = [
         ImageCarousel1,
         ImageCarousel2,
@@ -25,6 +28,7 @@ export default function Home(){
         <Header />
         <GalleryHomePage banners={banners} />
         <HighlightsColections />
+        <Category />
         <Footer />
         </>
     )

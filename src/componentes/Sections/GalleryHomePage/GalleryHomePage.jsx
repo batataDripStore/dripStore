@@ -12,7 +12,7 @@ function GalleryHomePage({banners}) {
   }
   const goPrev = () => {
     setCurrentIndex((prevIndex) =>{
-      prevIndex === 0 ? banners.length -1 : prevIndex - 1
+      return prevIndex === 0 ? banners.length -1 : prevIndex - 1
     })
   }
 
