@@ -14,7 +14,7 @@ export function FilterGroup (){
         <>
         <section className='filter_group'>
                 
-                    <div className='category'>
+                    <div className='category2'>
                         <h4 className='title'>Filtrar por</h4>
             <FormGroup sx={{marginLeft: '20px', marginBottom: '20px', backgroundColor: 'white'}}>
                 <p className='category2'>Marca</p>
