@@ -26,8 +26,10 @@ export function ProductCard({showDiscount}) {
               K-Swiss V8 - Masculino
             </div>
             <div className='precos'>
-              <div className='descPreco'><p><span>$200</span></p></div>
-              <div className='preco'><p>$100</p></div>
+              <Link to={"/pedidos"}>
+                <div className='descPreco'><p><span>$200</span></p></div>
+                <div className='preco'><p>$100</p></div>
+              </Link>
             </div>
           </section>
         </div>
