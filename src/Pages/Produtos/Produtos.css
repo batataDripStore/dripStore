@@ -1,10 +1,38 @@
-.AllGrid{
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-}
-.AllMargin{
-    margin: 100px;
-}
+
 body{
     background-color: #f9f8fe;
+}
+/* .card{
+    display: flex;
+    flex-wrap: wrap;
+} */
+.AllMargin {
+    padding: 20px;
+}
+
+.content-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 10%; /* Espaçamento entre FilterGroup e ProductListing */
+    margin-left: 20px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaçamento entre os cards */
+}
+
+/* Estilização adicional para FilterGroup e cards */
+.FilterGroup {
+    flex: 0 0 200px; /* Largura fixa para FilterGroup */
+    margin-right: 40px;
+}
+
+.cards-container .products-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaçamento entre os cards */
+    /* flex: 1;  */
 }
