@@ -9,6 +9,7 @@ import ImageCarousel4 from '../../assets/img/home-slide-4.jpeg'
 import ImageCarousel5 from '../../assets/img/home-slide-5.jpeg'
 import ImageCarousel6 from '../../assets/img/home-slide-6.jpeg'
 import { Category } from "../../componentes/Sections/Category/Category"
+import { FeaturedProducts } from "../../componentes/Sections/FeaturedProducts/FeaturedProducts"
 
 
 export default function Home(){
@@ -29,6 +30,7 @@ export default function Home(){
         <GalleryHomePage banners={banners} />
         <HighlightsColections />
         <Category />
+        <FeaturedProducts />
         <Footer />
         </>
     )

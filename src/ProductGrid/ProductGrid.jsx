@@ -6,7 +6,7 @@ import './ProductGrid.css'
 export function ProductGrid(){
     return(
     <>
-        <div class='styleProductGrid'>
+        <div className='styleProductGrid'>
 
         {Array.from({ length: 15 }).map((_, index) => (
         <ProductCard key={index} showDiscount={index < 2} />
