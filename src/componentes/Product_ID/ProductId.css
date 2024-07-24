@@ -1,0 +1,14 @@
+.main-product{
+    display: flex;
+    width: 1200px;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-product img{
+    width: 400px;
+}
+
+.content-product{
+    width: 500px;
+    
+}
