@@ -1,0 +1,33 @@
+.section-featured-products{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-section{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.title-section h3{
+    color: #4f4f4f;
+}
+.title-section a{
+    text-decoration: none;
+    color: #C92071;
+    display: flex;
+    align-items: center;
+    width: 110px;
+    justify-content: space-between;
+}
+.title-section a:hover{
+    color: #830542;
+}
+.featured-products{
+    width: 1200px;
+}

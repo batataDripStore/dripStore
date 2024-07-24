@@ -36,7 +36,7 @@ export const Category = () => {
                 <h2>Categorias</h2>
             <div className='category'>
             {icons && icons.map((icon) => (
-                <div>
+                <div key={icon.category}>
                     <figure>
                     <img src={icon.img} alt="" />
                     </figure>
