@@ -104,6 +104,7 @@ const products = [
         title: "K-Swiss V8 - Masculino",
         priceDiscount: 200
     },
+    
     {
         name: "Tênis",
         image:  tenis,

@@ -16,10 +16,11 @@ export function FilterGroup (){
                 
                     <div>
                         <h4 className='title'>Filtrar por</h4>
+                        <hr />
             <FormGroup sx={{marginLeft: '5px', marginBottom: '20px', backgroundColor: 'white', width: '304px', paddingLeft:'15px'}}>
                 <p className='category2'>Marca</p>
                   <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="Adidas" />
-                  <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="Calenciaga" />
+                  <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="Balenciaga" />
                   <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="K-Swiss" />
                   <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="Nike" />
                   <FormControlLabel control={<Checkbox  sx={{color: '#666666','&.Mui-checked': {color: '#C92071',},}} />} label="Puma" />

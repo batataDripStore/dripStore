@@ -11,15 +11,12 @@
     margin-top: 3.5%;
 
 }
-
-.category p{
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 22px;
-    letter-spacing: 0.75px;
-    color: #474747;
+hr{
+    width: 200px;
+    margin-left: 6%;
+    margin-bottom: 5%;
 }
+
 .title{
     padding-left: 20px;
     margin-top: 10%;

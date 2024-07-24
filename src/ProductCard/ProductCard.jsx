@@ -1,9 +1,8 @@
 import './ProductCard.css'
-import tenis from '../assets/img/Layer-1aa-2.png'
-
+// import tenis from '../assets/img/Layer-1aa-2.png'
 import { Link } from 'react-router-dom'
 export function ProductCard({name, image, price, showDiscount, title, priceDiscount}) {
-
+    console.log(title)
   return (
     <>
       
@@ -26,7 +25,6 @@ export function ProductCard({name, image, price, showDiscount, title, priceDisco
                     <div className='tit2'>
                         <p>{title}</p>
                     </div>
-                    <Link to={"/produtos"}>
                         <div className='precos'>
                             <div className='descPreco'>
                                 <p><span>${priceDiscount}</span></p>
@@ -34,8 +32,7 @@ export function ProductCard({name, image, price, showDiscount, title, priceDisco
                             <div className='preco'>
                                 <p>${price}</p>
                             </div>
-                        </div>
-                    </Link>
+                        </div>      
                 </section>
             </Link>
         </div>
