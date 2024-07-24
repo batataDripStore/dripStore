@@ -10,8 +10,9 @@
     width: 292px;
     height: 490px;
     /* background-color: white; */
-    /* margin-top: 15%; */
-    /* position: relative; */   
+    margin-top: 5%;
+    position: relative; 
+      
 }
 
 .cardTenis{
@@ -20,6 +21,10 @@
     display: flex;
     border-radius: 7px; 
     background-color: white;
+}
+.cardTenis:hover{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.4s;
 }
 .discount{
     width: 96px;
@@ -40,12 +45,15 @@
 .discount p{
     align-self: center;   
 }
+.discount:hover{
+    cursor: pointer;
+}
 .tenis{
     width: 248px;
     height: 134px;   
 }
 .tenisImg{
-    margin-top: 40px;
+    margin-top: 10px;
 
 }
 
@@ -80,7 +88,6 @@
     height: 38px;
     display: flex;
     flex-direction: row;
-    margin-bottom: 5%;
 }
 .descPreco{
     width: 69px;

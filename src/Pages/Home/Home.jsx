@@ -13,7 +13,6 @@ import { FeaturedProducts } from "../../componentes/Sections/FeaturedProducts/Fe
 
 
 export default function Home(){
-
    
     const banners = [
         ImageCarousel1,
