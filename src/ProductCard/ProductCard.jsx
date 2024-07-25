@@ -2,7 +2,7 @@ import './ProductCard.css'
 // import tenis from '../assets/img/Layer-1aa-2.png'
 import { Link } from 'react-router-dom'
 export function ProductCard({name, image, price, showDiscount, title, priceDiscount}) {
-    console.log(title)
+    // console.log(title)
   return (
     <>
       
@@ -17,7 +17,8 @@ export function ProductCard({name, image, price, showDiscount, title, priceDisco
                     <img src={image} alt={name} className='tenisImg' />
                 </div>
             </div>
-            <Link to={"/produtos"}>
+            <Link to="/singleproduct">
+
                 <section className='bottom'>
                     <div className='tit1'>
                         <p className='tit1'>{name}</p>
@@ -25,7 +26,7 @@ export function ProductCard({name, image, price, showDiscount, title, priceDisco
                     <div className='tit2'>
                         <p>{title}</p>
                     </div>
-                    <Link to={"/produtos"}>
+                    {/* <Link to={"/"}>
                         <div className='precos'>
                             <div className='descPreco'>
                                 <p><span>${priceDiscount}</span></p>
@@ -34,7 +35,20 @@ export function ProductCard({name, image, price, showDiscount, title, priceDisco
                                 <p>${price}</p>
                             </div>
                         </div>
-                    </Link>
+                    </Link> */}
+             
+                
+                    
+                        <div className='precos'>
+                            <div className='descPreco'>
+                                <p><span>${priceDiscount}</span></p>
+                            </div>
+                            <div className='preco'> 
+                                <p>${price}</p>
+                            </div>
+                        </div>
+                    
+                 
                 </section>
             </Link>
         </div>

@@ -12,7 +12,7 @@ export const CardHighlights = ({title, flagDiscount, image}) => {
             </div>
             <h2>{title}</h2>
             <div>
-                <Button nome={'comprar'} />
+                <Button nome={'Comprar'} cor={'white'} />
             </div>
         </div>
     )
