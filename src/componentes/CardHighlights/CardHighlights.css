@@ -9,6 +9,9 @@
     position: relative;
     z-index: 3;
 }
+.card-btn{
+    width: 150px;
+}
 .card-element img{
     width: 100%;
     height: 100%;

@@ -18,7 +18,9 @@ export const SpecialOffers = () => {
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
                         exercitation ullamco laboris nisi ut aliquip
                     </p>
+                    <div>
                     <Button nome={'Ver Oferta'} cor={'baseButton'}/>    
+                    </div>
                 </div>
             </div>
         </div>

@@ -18,7 +18,9 @@ export default function InsideHeader(){
                 <div className="login">
                     <Link to="cadastre-se">Cadastre-se</Link>
                 </div>
-                <Button className="button" nome={'Entrar'} />
+                <div>
+                    <Button className="button" nome={'Entrar'} />
+                </div>
                 <div className="cart">
                     <Link to="carrinho"><ShoppingCartOutlinedIcon color="action" /></Link>
                 </div>
