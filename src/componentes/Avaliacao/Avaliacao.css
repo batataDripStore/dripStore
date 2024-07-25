@@ -1,0 +1,11 @@
+.avaliacao-label{
+    display: flex;
+    width: 500px;
+    gap: 20px;
+    align-items: center;
+}
+
+.avaliacao-label p{
+    font-weight: 600;
+    color: #8F8F8F;
+}

@@ -8,20 +8,20 @@ import { ProductListing } from "../../componentes/ProductListing/ProductListing"
 
 
 export default function Produtos(){
-
     return( 
-        <>
-        <Header />
-    <div className="AllMargin">
-        <Filter />
-        <div className="content-container">
-            <FilterGroup />
-            <div className="cards-container">
-                <ProductListing />
+    <>
+    <Header />
+        <div className="AllMargin">
+            <Filter />
+            <div className="content-container">
+                <FilterGroup />
+                <div className="cards-container">
+                    <ProductListing />
+                </div>
             </div>
         </div>
-    </div>
     <Footer /> 
-        </> 
+    </> 
     )
 }
+

@@ -7,8 +7,6 @@ export const SingleProduct = () =>{
         <div>
             <Header />
             <ProductId />
-
-            <h1>teste</h1>
             <Footer />
         </div>
     )

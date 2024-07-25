@@ -5,6 +5,9 @@ import Fab from '@mui/material/Fab';
 // import EditIcon from '@mui/icons-material/Edit';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import NavigationIcon from '@mui/icons-material/Navigation';
+import { cyan } from '@mui/material/colors';
+
+const primary = cyan[200]
 
 export default function CorProduto() {
   return (
@@ -15,10 +18,10 @@ export default function CorProduto() {
       <Fab color="secondary" aria-label="edit">
         {/* <EditIcon /> */}
       </Fab>
-      <Fab color="secondary" aria-label="edit">
+      <Fab color="danger" aria-label="edit">
         {/* <EditIcon /> */}
       </Fab>
-      <Fab color="secondary" aria-label="edit">
+      <Fab color="cyan" aria-label="edit">
         {/* <EditIcon /> */}
       </Fab>
     </Box>

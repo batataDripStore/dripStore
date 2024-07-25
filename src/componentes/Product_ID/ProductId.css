@@ -1,14 +1,33 @@
 .main-product{
     display: flex;
-    width: 1200px;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    width: 100%;
+    align-items: center;
+    height: 700px;
+}
+.main-product > div{
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
 }
 .main-product img{
-    width: 400px;
+    width: 600px;
 }
 
 .content-product{
     width: 500px;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button-comprar{
+    margin-bottom: 5px;
+    width: 170px;
+}
+
+.content-product > span{
+    font-weight: 600;
+    color: #8F8F8F;
 }

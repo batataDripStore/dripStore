@@ -1,5 +1,6 @@
 .baseButton{
     padding: 0.8em 2em;
+    display: flex;
     border-radius: 8px;
     border: none;
     background-color: #C92071;
@@ -7,6 +8,45 @@
     cursor: pointer;
     transition-duration: 0.2s;
     text-decoration: none;
+    font-weight: 600;
+    font-size: 1em;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.white{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8em 2em;
+    border-radius: 8px;
+    border: none;
+    background-color: #fff;
+    color: #C92071;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.yellow{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8em 2em;
+    border-radius: 8px;
+    border: none;
+    background-color: #FFB31F;
+    color: #fff;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1em;
 }
 
 

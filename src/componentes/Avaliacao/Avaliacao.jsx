@@ -2,9 +2,10 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Rating from '@mui/material/Rating';
 import Typography from '@mui/material/Typography';
+import './Avaliacao.css'
 
 export default function Avaliacao() {
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = React.useState(4);
 
   return (
     <Box
@@ -12,15 +13,10 @@ export default function Avaliacao() {
         '& > legend': { mt: 2 },
       }}
     >
-      <Typography component="legend">Controlled</Typography>
-      <Rating
-        name="simple-controlled"
-        value={value}
-        onChange={(event, newValue) => {
-          setValue(newValue);
-        }}
-      />
-    
+     <div className='avaliacao-label'>
+      <Rating name="read-only" value={value} readOnly />
+      <p>90 avaliações</p>
+      </div>
     </Box>
   );
 }

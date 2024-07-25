@@ -19,9 +19,7 @@ export default function Nav() {
                 <li>
                     <Link to="/pedidos">Meus Pedidos</Link>
                 </li>
-                <li>
-                    <Link to="/singleproduct">Single Product</Link>
-                </li>
+                
             </ul>
             </nav>
         </>

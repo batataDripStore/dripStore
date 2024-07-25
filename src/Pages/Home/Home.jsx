@@ -10,6 +10,7 @@ import ImageCarousel5 from '../../assets/img/home-slide-5.jpeg'
 import ImageCarousel6 from '../../assets/img/home-slide-6.jpeg'
 import { Category } from "../../componentes/Sections/Category/Category"
 import { FeaturedProducts } from "../../componentes/Sections/FeaturedProducts/FeaturedProducts"
+import {SpecialOffers} from '../../componentes/Sections/SpecialOffers/SpecialOffers'
 
 
 export default function Home(){
@@ -30,6 +31,7 @@ export default function Home(){
         <HighlightsColections />
         <Category />
         <FeaturedProducts />
+        <SpecialOffers />
         <Footer />
         </>
     )
