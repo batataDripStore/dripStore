@@ -34,10 +34,14 @@
 
 
 .card-element h2{
- 
     width: 175px;
     line-height: 1.2em;
     margin-bottom: 1em;
     font-size: 2em;
 }
+
+.btn-comprar{
+    width: 160px;
+}
+
 

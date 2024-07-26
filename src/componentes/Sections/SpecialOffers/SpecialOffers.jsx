@@ -20,7 +20,7 @@ export const SpecialOffers = () => {
                     </p>
                     <div>
                     <Button nome={'Ver Oferta'} cor={'baseButton'}/>    
-                    </div>
+                    </div> 
                 </div>
             </div>
         </div>

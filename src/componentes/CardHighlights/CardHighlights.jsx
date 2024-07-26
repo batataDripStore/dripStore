@@ -11,7 +11,7 @@ export const CardHighlights = ({title, flagDiscount, image}) => {
                 <span>{flagDiscount}</span>
             </div>
             <h2>{title}</h2>
-            <div className='card-btn'>
+            <div className='btn-comprar'>
                 <Button nome={'Comprar'} cor={'white'} />
             </div>
         </div>
