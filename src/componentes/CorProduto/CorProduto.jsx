@@ -1,29 +1,46 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import Fab from '@mui/material/Fab';
+// import Box from '@mui/material/Box';
+// import Fab from '@mui/material/Fab';
 // import AddIcon from '@mui/icons-material/Add';
 // import EditIcon from '@mui/icons-material/Edit';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import NavigationIcon from '@mui/icons-material/Navigation';
-import { cyan } from '@mui/material/colors';
+// import FavoriteIcon from '@mui/icons-material/Favorite';
+// import NavigationIcon from '@mui/icons-material/Navigation';
 
-const primary = cyan[200]
+
+import './CorProduto.css'
+import { useState } from 'react';
 
 export default function CorProduto() {
+  const [color, setColor] = useState('')
+  const dots = [
+    {
+      index: 0,
+      cor: 'blue'
+    },
+    {
+      index: 1,
+      cor: 'red'
+    },
+    {
+      index: 2,
+      cor: 'pink'
+    },
+    {
+      index: 3,
+      cor: 'orange'
+    }
+  ]
+  const bgColor = (index) =>{
+    setColor(index)
+    console.log(index)
+  }
   return (
-    <Box sx={{ '& > :not(style)': { m: 1 } }}>
-      <Fab color="primary" aria-label="add">
-        {/* <AddIcon /> */}
-      </Fab>
-      <Fab color="secondary" aria-label="edit">
-        {/* <EditIcon /> */}
-      </Fab>
-      <Fab color="danger" aria-label="edit">
-        {/* <EditIcon /> */}
-      </Fab>
-      <Fab color="cyan" aria-label="edit">
-        {/* <EditIcon /> */}
-      </Fab>
-    </Box>
-  );
+    <div className='dots-colors'>
+      <h3>Cor</h3>
+        <div>
+        {dots.map((dot, index) => (
+          <button key={dot.index} className={color === dot.index ? `${dot.cor}` : ''} onClick={() => bgColor(index)}></button>
+        ))}
+        </div>
+    </div>
+  )
 }

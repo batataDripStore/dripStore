@@ -1,22 +1,25 @@
 import './nav.css';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 
 export default function Nav() {
+    const location = useLocation()
+    const path = location.pathname
+ 
     return(
         <>
             <nav className="nav">
             <ul>
-                <li>
+                <li className={path === '/' ? 'active' : ''}>
                     <Link to={'/'}>Home</Link>
                 </li>
-                <li>
+                <li className={path === '/produtos' ? 'active' : ''}>
                     <Link to="/produtos">Produtos</Link>
                 </li>
-                <li>
+                <li className={path === '/categorias' ? 'active' : ''}>
                     <Link to="/categorias">Categorias</Link>
                 </li>
-                <li>
+                <li className={path === '/pedidos' ? 'active' : ''}>
                     <Link to="/pedidos">Meus Pedidos</Link>
                 </li>
                 

@@ -9,9 +9,11 @@ export default function InsideHeader(){
     return(
         <>
             <div className="insiderHeader">
-                <div className="logo">
-                    <img src={logo} alt="" />
-                </div>
+                <Link to="/">
+                    <div className="logo">
+                        <img src={logo} alt="" />
+                    </div>
+                </Link>
                 <div className='input'>
                     <Input />
                 </div>

@@ -6,3 +6,36 @@
     margin-bottom: 8px;
     color: #8f8f8f;
 }
+.size-shoes{
+    display: flex;
+    width: 240px;
+    height: 75px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.size-shoes h3{
+    color: #474747;
+}
+.size-shoes > div{
+    display: flex;
+    justify-content: space-between;
+}
+.size-shoes button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.size-shoes button:hover{
+    background-color: #ce1a5f;
+    color: #fff;
+}
+
+.size-shoes button.active{
+    background-color: #ce1a5f;
+    color: #fff;
+}

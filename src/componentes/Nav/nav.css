@@ -28,3 +28,8 @@
     border-bottom:2px solid #C92071;
     color: #C92071;
 }
+
+.nav ul li.active{
+    border-bottom:2px solid #C92071;
+    color: #C92071;
+}

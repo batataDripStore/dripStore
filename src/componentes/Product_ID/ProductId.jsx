@@ -16,7 +16,14 @@ export const ProductId = () => {
                     <h1> Tênis Nike Revolution 6 Next Nature Masculino</h1>
                     <Avaliacao/>
                     <span>Descrição do Produto</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit modi numquam praesentium architecto iste rem corporis reiciendis amet pariatur quaerat exercitationem labore quia quasi laboriosam, laborum natus dolor eum vitae.</p>
+                    <div className="price">
+                    <p>R$</p>
+                    <p className='number-price'>219,00</p>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit modi numquam praesentium architecto iste rem corporis 
+                        reiciendis amet pariatur quaerat exercitationem labore quia quasi laboriosam, laborum natus dolor eum vitae.
+                    </p>
                     <TamanhoProduto/>
                     <CorProduto />
                     <div className='button-comprar'>
