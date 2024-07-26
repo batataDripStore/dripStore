@@ -1,0 +1,34 @@
+.dots-colors{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.dots-colors>div{
+    justify-content: space-between;
+    display: flex;
+    width: 240px;
+}
+
+.dots-colors>div>button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+}
+
+.dots-colors>div>button.blue{
+    background-color: #1773dd;
+}
+
+.dots-colors>div>button.red{
+    background-color: #eb5454;
+}
+
+.dots-colors>div>button.pink{
+    background-color: #eb54c5;
+}
+
+.dots-colors>div>button.orange{
+    background-color: #f06c2f;
+}

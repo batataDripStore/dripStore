@@ -9,16 +9,20 @@ export default function InsideHeader(){
     return(
         <>
             <div className="insiderHeader">
-                <div className="logo">
-                    <img src={logo} alt="" />
-                </div>
+                <Link to="/">
+                    <div className="logo">
+                        <img src={logo} alt="" />
+                    </div>
+                </Link>
                 <div className='input'>
                     <Input />
                 </div>
                 <div className="login">
                     <Link to="cadastre-se">Cadastre-se</Link>
                 </div>
-                <Button className="button" nome={'Entrar'} />
+                <div>
+                    <Button className="button" nome={'Entrar'} />
+                </div>
                 <div className="cart">
                     <Link to="carrinho"><ShoppingCartOutlinedIcon color="action" /></Link>
                 </div>

@@ -1,6 +1,7 @@
 import './GalleryHomePage.css'
 import { useEffect, useState } from 'react'
-
+import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 function GalleryHomePage({banners}) {
   //useState para alterar o estado do Carousel
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -17,7 +18,6 @@ function GalleryHomePage({banners}) {
   }
   const goToslide = (index) => {
     setCurrentIndex(index)
-   
   }
   //autoplay carousel home
   useEffect(() => {
@@ -30,7 +30,7 @@ function GalleryHomePage({banners}) {
   //componente Carousel
   return (
     <div className='carousel'>
-      <button onClick={goPrev} className='carousel-button prev-button'>&lt;</button>
+      <button onClick={goPrev} className='carousel-button prev-button'><KeyboardArrowLeftIcon /></button>
       <div>
         <img src={banners[currentIndex]} alt="banner" className='carousel-image'/>
         {/* {console.log(banners[currentIndex])} */}
@@ -44,7 +44,7 @@ function GalleryHomePage({banners}) {
             ></span>
           ))}
       </div>
-      <button onClick={goNext} className='carousel-button next-button'>&gt;</button>
+      <button onClick={goNext} className='carousel-button next-button'><KeyboardArrowRightIcon /></button>
     </div>
     )
 }
